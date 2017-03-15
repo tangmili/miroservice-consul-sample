@@ -1,7 +1,7 @@
 package com.xinbang.common.consts;
 
 /**
- * Created by wangyanbo on 17/2/12.
+ * Created by JamesTang on 17/2/12.
  */
 public interface BasePropKeys {
     String SERVICE_NAME = "moxie.cloud.service.name";

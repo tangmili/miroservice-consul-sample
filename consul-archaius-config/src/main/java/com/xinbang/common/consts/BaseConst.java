@@ -1,7 +1,7 @@
 package com.xinbang.common.consts;
 
 /**
- * Created by wangyanbo on 17/2/24.
+ * Created by JamesTAng on 17/2/24.
  */
 public interface BaseConst {
     String TAG_LOCAL = "local";
