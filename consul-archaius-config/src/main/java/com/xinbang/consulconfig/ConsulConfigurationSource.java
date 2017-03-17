@@ -79,8 +79,8 @@ public class ConsulConfigurationSource implements PolledConfigurationSource {
         Properties properties = new Properties();
         properties.load(new StringReader(propString));
         properties.entrySet().forEach(e -> map.put((String) e.getKey(), e.getValue()));
-        PollResult.createFull(map);
-        return PollResult.createFull(map);
+        PollResult  pollResult=  PollResult.createFull(map);
+        return pollResult;
 
         //Consul consul = Consul.builder().build();
         /*   KeyValueClient kvClient = consul.keyValueClient();

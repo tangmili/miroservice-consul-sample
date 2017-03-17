@@ -28,6 +28,7 @@ public class ConsulPropertySource extends MapPropertySource {
         super(configKey, Maps.newHashMap());
         props = getDynamicConfiguration(configKey, token, consul);
         //ConfigurationManager.install(props); // TODO: 17/2/24  check
+
         Iterator it = props.getKeys();
         while (it.hasNext()) {
             String kk = (String) it.next();

@@ -23,9 +23,6 @@ import lombok.extern.slf4j.Slf4j;
 public class ConsulConfigReadTest extends SpringBootTestBase {
 
     @Autowired
-    private ConsulClient                consulClient;
-
-    @Autowired
     Environment                         env;
 
     @Value("${moxie.cloud.logging.logstash.mode}")
