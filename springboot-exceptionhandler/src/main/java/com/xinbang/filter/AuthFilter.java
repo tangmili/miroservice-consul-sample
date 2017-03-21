@@ -20,7 +20,7 @@ import com.google.common.net.HttpHeaders;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Created by wangyanbo on 16/9/13.
+ * Created by JamesTang on 16/9/13.
  */
 @Slf4j
 @Component
