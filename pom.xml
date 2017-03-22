@@ -10,6 +10,7 @@
         <module>consul-archaius-config</module>
         <module>consul-loadbalance</module>
         <module>springboot-exceptionhandler</module>
+        <module>springboot-parent</module>
     </modules>
 
     <packaging>pom</packaging>
